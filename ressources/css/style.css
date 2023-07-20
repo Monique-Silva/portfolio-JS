@@ -1,0 +1,78 @@
+/* Utiliser la méthode BEM */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    max-width: 1024px;
+    background: #FFF;
+}
+
+/*header*/
+header {
+    display: flex;
+}
+
+.header__logo {
+    width: 374px;
+    height: 136px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.header__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.header__navbar_item {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px;
+}
+
+.header__navbar_item_link {
+    text-decoration: none;
+}
+
+.header__flag {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.header__loupe {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.header__bottom-line {
+    height: 1px;
+    background: #000;
+}
+
+h1__job {}
+
+h2__name {}
+
+.p__presentation {}
+
+.btn__main {}
