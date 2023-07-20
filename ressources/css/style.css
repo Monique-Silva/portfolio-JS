@@ -1,9 +1,12 @@
 /* Utiliser la méthode BEM */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
 body {
     max-width: 1024px;
     background: #FFF;
+    color: #000;
 }
 
 /*header*/
@@ -30,7 +33,6 @@ header {
 }
 
 .header__navbar_item {
-    color: #000;
     text-align: center;
     font-family: Inter;
     font-size: 26px;
@@ -42,6 +44,7 @@ header {
 
 .header__navbar_item_link {
     text-decoration: none;
+    color: black;
 }
 
 .header__flag {
@@ -50,7 +53,6 @@ header {
     justify-content: flex-end;
     width: 50px;
     height: 50px;
-    flex-shrink: 0;
     padding: 20px;
 }
 
@@ -60,21 +62,106 @@ header {
     justify-content: flex-end;
     width: 50px;
     height: 50px;
-    flex-shrink: 0;
     padding: 20px;
 }
 
-.header__bottom-line {
-    height: 1px;
-    background: #000;
+.hr {
+    border: 1px solid black;
+    border-radius: 2px;
 }
 
-.text__home {}
+.main__text_img{
+    display: flex;
+    justify-content: row;
+}
 
-h1__job {}
+.text {
+    position: relative;
+width: 643px;
+height: 569px;
+font-family: Gruppo;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 225px;
+margin-right: 484px;
+margin-top: 138px;
+scroll-margin-bottom: 317px;
+}
 
-h2__name {}
+.h1__job {
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
-.p__presentation {}
+.p__name {
+  color: #045816;
+font-family: Gruppo;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
-.btn__main {}
+.btn__main {
+    width: 165px;
+height: 47px;
+border-radius: 30px;
+background: #FFBB43;
+margin-top: 100px;
+}
+
+.btn__text {
+
+display: flex;
+width: 165px;
+height: 26.366px;
+flex-direction: wrap;
+justify-content: center;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+padding: 30px;
+}
+
+.img__myself{
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    width: 851px;
+    height: 746px;
+    margin-left: 339px;
+
+}
+
+.footer__layout {
+    width: 100%;
+height: 90px;
+position: fixed; 
+    bottom: 0; 
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #DB927C;
+    color: white;
+}
+
+.footer__logo{
+    width: 70px;
+    height: 70px;
+    padding: 0;
+}
+.footer__contact{
+    padding: 10px;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 200px;
+}
