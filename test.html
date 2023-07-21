@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Hello</h2>
+    <div class="img__myself">
+        <img id="premiereImage" src="ressources/images/moniquesilva.jpg"
+            alt="Photo de Monique Silva en souriant avec un clavier d'ordinateur qui cache la moitié de son visage">
+    </div>
+
+    <script src="ressources/js/main.js"></script>
+</body>
+<div id="title">Olá</div>
+
+</html>
+
+<script>
+    let myTitle = document.getElementById("title");
+    console.log(myTitle);
+
+    let baliseImage = document.getElementById("premiereImage");
+    baliseImage.setAttribute("alt", "Quem é essa doida?");
+    baliseImage.src = "ressources/images/burger-bar.png";
+    baliseImage.classList.add(".img__principal");
+    console.log(baliseImage);
+
+
+
+</script>
