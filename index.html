@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ressources/css/style.css">
     <!-- <script src="ressources/js/main.js" defer></script> //a palavra defert diz que a página deve ser carregada primeiro pra depois rodar o script !-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Mon portfolio</title>
 </head>
 
@@ -15,8 +16,11 @@
             <img src="ressources/images/logo_silva.svg"
                 alt="Logo qui montre le nom silva fermé par le signal de inférieur et supérieur">
         </div>
-        <nav class="header__navbar">
-            <ul class="header__navbar">
+        <label id="burger" class="header__burger">
+            <img src="ressources/images/burger-bar.png" alt="burger">
+        </label>
+        <nav class="topnav">
+            <ul id="navItems" class="header__navbar">
                 <li class="header__navbar_item">
                     <a class="header__navbar_item_link" href="index.html">Accueil</a><br>
                 </li>
@@ -36,34 +40,34 @@
         </div>
         <div class="header__loupe">
             <img src="ressources/images/loupe.svg" alt="Loupe to insert search field">
-        </div>
-        <hr>
     </header>
 
-    <main class="main__text_img">
-        <div class="text">
-            <p class="text__presentation">Je suis <span class="p__name">Monique Silva,</span></p>
-            <h1 class="h1__job">développeuse.</h1>
-            <p>Bienvenue sur</p><br>
-            <p>mon portfolio.</p>
-            <div class="btn__text">
-                <button class="btn__main">SAVOIR PLUS</button>
+    <main>
+        <div class="main__text_img">
+            <div class="text">
+                <p class="text__presentation">Je suis <span class="p__name">Monique Silva,</span></p>
+                <h1 class="h1__job">développeuse.</h1>
+                <p class="text__presentation">Bienvenue sur</p><br>
+                <p class="text__presentation">mon portfolio.</p>
+                <div class="btn__text">
+                    <button class="btn__main">SAVOIR PLUS</button>
+                </div>
+            </div>
+            <div class="img__myself">
+                <img src="ressources/images/moniquesilva.jpg"
+                    alt="Photo de Monique Silva en souriant avec un clavier d'ordinateur qui cache la moitié de son visage">
             </div>
         </div>
-        <div class="img__myself">
-            <img src="ressources/images/moniquesilva.jpg"
-                alt="Photo de Monique Silva en souriant avec un clavier d'ordinateur qui cache la moitié de son visage">
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <div id="container_articles">
         </div>
-
-        <article>
-            <h2 id="title"></h2>
-            <img id="img" src="" alt="">
-            <p></p>
-        </article>
-
+        <br>
+        <br>
     </main>
-    <br>
-    <hr>
     <footer>
         <div class="footer__layout">
             <div class="footer__logo">
